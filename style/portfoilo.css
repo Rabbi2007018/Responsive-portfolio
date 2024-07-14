@@ -202,14 +202,14 @@ textarea{
 }
 
 @media screen and (max-width:576px) {
-    .skill-container{
+    .skill-container , .banner{
         flex-direction: column;
     }
     .resume-container {
         flex-direction: column;
     }
     .footer{
-        padding: 0px;
+        padding: 50px;
         flex-direction: column;
     }
     .footer-column{
@@ -218,10 +218,27 @@ textarea{
         width: calc(100% - 40px);
     }
     .about{
-        padding: 20px;
+        padding: 5px;
     }
     .about-items{
         flex-direction: column;
     }
+    .banner{
+        margin: 20px;
+    }
+    .head{
+        background-image:  none
+    }
+    .banner-pic{
+        width: 100%;
+    }
+    nav {
+        flex-direction: column;
+    }
+    ul{
+        flex-direction: column;
+        gap: 10px;
+    }
+    
 
 }
